@@ -28,7 +28,7 @@ h1,h2{
     margin-left: 30px;
 }
 
-navigation links
+/*navigation links*/
 
 #menu {
     font-size: 110%;
@@ -55,4 +55,35 @@ navigation links
 
 .active{
     border-bottom: 1px solid #3a3a3a;
+}
+/* kids-image */
+#kids-outer{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#kids-image{
+    height: 370px;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url('../images/children1\ \(1\).jpeg');
+
+    /*animates zoom effects on loading page */
+    animation-name: kids-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+
+/*creates the level of zoom for kids image */
+@keyframes kids-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);  
+    }
+
 }
