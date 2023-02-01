@@ -109,3 +109,43 @@ h1,h2{
     border-style: groove;
     margin: 30px;
     }
+
+    #for-right {
+        padding-top: 30px;
+        width: 35%;
+        height: 400px;
+        float: right;
+        margin-right: 100px;
+        background-repeat: no-repeat;
+        text-align: center;
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+        background-image: url(../images/preview.jpg);
+        border-radius: 20%;
+        border-style: groove;
+        margin: 30px;
+        
+    }
+
+    hr {
+        clear :both;
+        margin-bottom:  250px;
+    }
+
+    .child-left {
+        border-top: #3a3a3a;
+        width: 100%;
+        margin: 5px 0;
+    
+    }
+
+    /* child div content*/
+
+.child-left{
+    
+    width: 80%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:  50px;
+
+}
