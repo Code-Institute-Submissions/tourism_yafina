@@ -153,37 +153,38 @@ h1,h2{
 .child-left h2{
     
     width: 90%;
-    float: left;
+    float: center;
     line-height: 20px;
      font-size: 25px;
-     text-align: left;
-     color: rgb(252, 245, 245);
+     text-align: center;
+     color: rgb(189, 37, 37);
      font-weight: 700;
 
 }
 
 .child-left p{
     text-align: left;
-    color: rgb(252, 252, 246);
-    font-weight: 500;
+    color: rgb(189, 37, 37);
+    font-weight: 700;
 }
 
 .child-right h2{
     
     width: 90%;
-    float: left;
-    line-height: 20px;
+    float: center;
+    line-height: 25px;
      font-size: 25px;
-     text-align: right;
-     color: rgb(252, 245, 245);
-     font-weight: 700;
+     text-align: cemter;
+     color: rgb(189, 37, 37);
+     font-weight: 600;
+     
 
 }
 
 .child-right p{
-    text-align: left;
-    color: rgb(252, 252, 246);
-    font-weight: 500;
+    text-align: right;
+    color:  rgb(189, 37, 37);
+    font-weight: 600;
 }
 
 #heading-2 {
