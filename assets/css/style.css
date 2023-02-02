@@ -223,18 +223,23 @@ h1,h2{
    }
 
 
-   mapouter{
-    padding: 20px;
+.mapouter{
+    float: left;
+    padding: 30px;
     position:relative;
     height:200px;
-    width: 1224px;
+    width: 1205px;
 }
 
 .gmap_canvas {
-    
+    float: left;
     overflow:hidden;
     background:none!important;
     height:200px;
-    width: 1224px;
-    border-radius:20px;
+    width: 1205px;
+    border-radius:10px;
+}
+
+footer {
+    height: 150px;
 }
