@@ -130,14 +130,14 @@ h1,h2{
         clear :both;
         margin-bottom:  250px;
     }
-     /* 
+   
     .child-left {
         border-top: #3a3a3a;
         width: 100%;
         margin: 5px 0;
     
     }
-    */
+    
     /* child div content*/
 
 .child-left{
@@ -293,12 +293,15 @@ footer {
     }
 
     #second-one {
-        width: 100%;
-        height: 950px;
+        width: 90%;
+        height: 1200px;
         margin: 0 auto;
         
     }
-
+    .child-left, .child-right {
+        width: inherit;
+    }
+    
     .child-left h2, .child-right h2 {
         width: 50%;
         text-align: center;
