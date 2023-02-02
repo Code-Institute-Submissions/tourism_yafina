@@ -194,3 +194,23 @@ h1,h2{
     margin: 10px;
     
 }
+
+#third-one  {
+    height: 600px;
+    width: 600x;
+    position: relative;
+ 
+ }
+
+ #my-left{
+    padding-top: 30px;
+    width: 35%;
+    height: 400px;
+    float: left;
+    margin-left: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: rgb(54, 59, 58);
+    margin: 30px;
+    }
+
