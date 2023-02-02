@@ -104,7 +104,7 @@ h1,h2{
     text-align: center;
     background-repeat: no-repeat;
     background-color: rgb(54, 59, 58);
-    background-image: url(../images/voice3.jpg);
+    background-image: url(../images/riht.jpg);
     border-radius: 5%;
     border-style: groove;
     margin: 30px;
@@ -290,6 +290,17 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #second-one {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .child-left h2, .child-right h2 {
+        width: 100%;
+        text-align: center;
     }
 }
 
