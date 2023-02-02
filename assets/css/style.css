@@ -216,3 +216,25 @@ h1,h2{
     border-radius: 20px;
 
 }
+
+#schadule h2{
+
+    color:white;
+   }
+
+
+   mapouter{
+    padding: 20px;
+    position:relative;
+    height:200px;
+    width: 1224px;
+}
+
+.gmap_canvas {
+    
+    overflow:hidden;
+    background:none!important;
+    height:200px;
+    width: 1224px;
+    border-radius:20px;
+}
