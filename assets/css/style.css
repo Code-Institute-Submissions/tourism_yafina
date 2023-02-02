@@ -256,7 +256,7 @@ footer {
     padding: 5%
 }
 
-/* Media querries*/
+/* For medium screen sizes from 1200px wide and down*/
 @media screen and (max-width:1020px){
     #second-one {
         width: 65%;
@@ -277,7 +277,16 @@ footer {
         float: left;
         padding:20;
     }
-    
+    #schadule > div {
+        width:100%;
+        clear:both;
+        height:150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
     
 }
 
@@ -301,7 +310,7 @@ footer {
     .child-left, .child-right {
         width: inherit;
     }
-    
+
     .child-left h2, .child-right h2 {
         width: 50%;
         text-align: center;
