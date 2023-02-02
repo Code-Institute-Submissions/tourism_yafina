@@ -243,3 +243,15 @@ h1,h2{
 footer {
     height: 150px;
 }
+
+.socail_media{
+    text-align: center;
+
+}
+
+.socail_media > li {
+    display: inline ;
+    font-size: 20px;
+    margin: 0,5%;
+    padding: 5%
+}
