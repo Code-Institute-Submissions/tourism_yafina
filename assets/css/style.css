@@ -284,10 +284,7 @@ footer {
         padding: 0;
     }
 
-    hr {
-        display: none;
-    }
-    
+
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -315,9 +312,18 @@ footer {
         width: 50%;
         text-align: center;
     }
+
+    #gallery-photos{
+        column-count:3;
+    }
 }
-
-
+ /* For small screem sizes 800px and down*/
+@media screen  and (max-width: 800px){
+      
+    #gallery-photos{
+        column-count: 2;
+    }
+}
 
 
 
