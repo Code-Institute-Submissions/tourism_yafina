@@ -182,7 +182,7 @@ h1,h2{
 }
 
 .child-right p{
-    text-align: right;
+    text-align: left;
     color:  rgb(252, 252, 249);
     font-weight: 500;
 }
