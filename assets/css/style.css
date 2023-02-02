@@ -255,17 +255,33 @@ footer {
     margin: 0,5%;
     padding: 5%
 }
-/* gallery photos
 
-#gallery-photos {
-    clear: both;
-    line-height:  0;
-    column-count: 4;
-    column-gap: 0;
+/* Media querries*/
+@media screen and (max-width:1020px){
+    #second-one {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #heading-2 {
+
+        padding: 30px 0;
+        margin: 0;
+    
+    }
+
+    #for-left, #for-right{
+
+        width: 100%;
+        float: left;
+        padding:0;
+    }
+    
     
 }
 
-#gallery-photos > img {
-    width: 100%;
-}
-*/
+
+
+
+
