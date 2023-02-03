@@ -287,7 +287,7 @@ footer {
 
 }
 
-/* For medium screen sizes from 950px wide and down */
+ /*For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
     #menu {
@@ -309,8 +309,13 @@ footer {
     }
 
     .child-left h2, .child-right h2 {
-        width: 50%;
+        width: 100%;
         text-align: center;
+    }
+
+    .child-left p, .child-right p {
+        text-align: center;
+        padding: 0 20px;
     }
 
     #gallery-photos{
