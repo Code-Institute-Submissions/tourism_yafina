@@ -255,6 +255,19 @@ footer {
     margin: 1%;
     padding: 5%
 }
+/*Gallery photos*/
+
+#gallery-photos {
+   clear: both;
+   line-height: 0;
+   column-count: 3px;
+   column-gap: 0;
+}
+
+#gallery-photos > img {
+    width: 100%;
+    
+}
 
 /* For medium screen sizes from 1200px wide and down*/
 @media screen and (max-width:1020px){
