@@ -245,7 +245,11 @@ footer {
 }
 
 .socail_media{
+    padding-top:50px;
+    height:150px;
+    background-color: rgb(142, 148, 148);
     text-align: center;
+
 
 }
 
@@ -343,3 +347,17 @@ footer {
     }
 }
 
+.about-1{
+    padding-top: 50px;
+    height: 400px;
+    width: 100%;
+    background-color: #252525;
+}
+
+.about-1 > p{
+    margin-left: 90px;
+    text-align: justify;
+    color: aliceblue;
+    line-height:25px;
+    
+}
